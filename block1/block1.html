@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<style>
+    .cover {
+        width: 400px;
+        height: auto;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+
+    .plot_description {
+        text-align: justify;
+    }
+
+    .film {
+        min-height: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .plot{
+        text-align: center;
+    }
+
+    .frame {
+        margin-bottom: 20px;
+    }
+
+    .frame_box, h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .frames {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        cursor: pointer;
+        width: 200px;
+        height: auto;
+        background-color:bisque;
+        border-radius: 4px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+</style>
+<html>
+
+<head>
+    <title>Каталог фильмов</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Бронксская история</h1>
+
+        <div class="film">
+            <img src="../../practice_2/img/bronx_tale_cover.jpg" class="cover">
+
+
+            <div class="plot">
+                <a class="return_button" href='../../practice_2/index.html'>
+                    <button type="button">
+                        Вернуться на главную страницу
+                    </button>   
+                </a>
+                
+                <h2>Сюжет (осторожно, спойлеры)</h2>
+                <p class="plot_description">
+                    Фильм о Калоджеро, мальчике из итальянского квартала Бронкса, отец (Роберт де Ниро) которого работает простым водителем автобуса. 
+                    В детстве Калоджеро становится свидетелем убийства, которое совершает глава местных гангстеров Сонни (Чезз Палминтери), 
+                    но он сообщает в полицию ложную информацию, в результате чего бандит остаётся на свободе. 
+                    Будучи бездетным, Сонни берёт Калоджеро под свою опеку. В результате мальчик воспитывается как бы двумя отцами, 
+                    однако родной отец не одобряет уроки отца названого.
+                    Став юношей, Калоджеро сталкивается с другой общественной проблемой — его друзья из итальянского квартала конфликтуют 
+                    с молодёжью афроамериканского квартала, тогда как Калоджеро начинает встречаться с симпатичной афроамериканкой Джейн Уильямс. 
+                    Итальянские подростки пытаются напасть на квартал афроамериканцев, что заканчивается для них трагедией.
+                    В финале фильма Сонни погибает. Калоджеро приходит на роскошные похороны главаря мафии, во время которых ему 
+                    позволяют в одиночестве проститься с названым отцом. Перед юношей снова встаёт сложный вопрос выбора жизненного пути.
+                </p>
+            </div>
+
+            <div class="frame_box">
+                <h2>Кадры из фильма</h2>
+                <div class="frames">
+                    <img class="frame" src="../../practice_2/img/bronx_tale_1.webp">
+                    <img class="frame" src="../../practice_2/img/bronx_tale_2.jpg">
+                    <img class="frame" src="../../practice_2/img/bronx_tale_3.jpeg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
